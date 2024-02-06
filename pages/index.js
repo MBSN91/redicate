@@ -15,7 +15,7 @@ export default function Home() {
           Coming Soon
         </h1>
         <p className="mt-3 text-2xl">
-          Get ready for something amazing!
+          We will back soon with an update website!
         </p>
         <div className="mt-8">
           <Image src="/redicate-logo-.svg" alt="Music Artist Logo" width={200} height={200} className="object-cover" />
