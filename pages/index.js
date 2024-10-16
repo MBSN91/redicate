@@ -1,5 +1,8 @@
+"use client"
+
 import Head from 'next/head';
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -8,6 +11,7 @@ export default function Home() {
         <title>Redicate - Coming Soon</title>
         <meta name="description" content="Coming Soon page for Redicate, a professional music artist" />
         <link rel="icon" href="/favicon.ico" />
+        <script async src="https://cdn.seline.so/seline.js" data-token="4b79544dcb27891"></script>
       </Head>
 
       <main className="flex flex-col items-center justify-center flex-1 px-20 text-center">
@@ -15,8 +19,9 @@ export default function Home() {
           Coming Soon
         </h1>
         <p className="mt-3 text-2xl">
-          We will back soon with an updated website!
+          We are back  with an updated website!
         </p>
+        <Link href={"https://www.ontheedgemusic.nl/?utm_source=redicate"} />
         <div className="mt-8">
           <Image src="/redicate-logo-.svg" alt="Music Artist Logo" width={200} height={200} className="object-cover" />
         </div>
